@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link
       rel="icon"
       type="image/png"
@@ -23,8 +23,8 @@
             <a href="index.html"><img class="logo" src="/images/favicon.png" alt=""></a>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="index.html" class="active-link">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Experience</a></li>
                     <li><a href="#">Works</a></li>
@@ -35,20 +35,51 @@
     </div>
     
     <!-- Section 1 -->
-    <section class="first">
+    <section class="profile">
         <div class="container">
-            <img class="first-img" src="/images/passport.jpg" alt="">
+            <img class="profile-img" src="/images/passport.jpg" alt="">
             <h1>Jonathan Kofi Donkor</h1>
             <p>I am a Web Developer</p>
 
             <div class="socials">
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-behance"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-github"></i>
+                <a href="http://www.twitter.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-twitter"></i></span></a>
+                <a href="http://www.instagram.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-instagram"></i></span></a>
+                <a href="http://www.facebook.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-facebook"></i></span></a>
+                <a href="http://www.github.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-github"></i></span></a>
             </div>
+
+            <button class="btn lead m-1"><p>Hire Me</p></button>
         </div>
 
     </section>
+    <hr>
+
+<!-- About me section -->
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <div class="profile-about">
+
+                <h1 class="lg">About Me</h1>
+                <div class="about-me-grid">
+                    <div>
+                        <img src="/images/jonathan.jpg" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <p>I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
+                            <button class="btn lead my-1"><p>Download My CV</p></button>
+                        </div>
+                        <div>
+                            Development
+                            UI/UX design
+                            Photography
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="to-top" href="#">Back to top</a>
 </body>
 </html>
