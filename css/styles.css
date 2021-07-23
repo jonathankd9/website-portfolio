@@ -232,8 +232,6 @@ p {
 
 .about-me {
   color: #fff;
-  padding: 10px 0;
-  height: 100vh;
 }
 
 #about-img {
@@ -268,7 +266,6 @@ i:hover {
 }
 
 .services {
-  height: 100vh;
   color: #fff;
   padding: 10px 0;
 }
@@ -308,7 +305,6 @@ i:hover {
 }
 
 .contact {
-  height: 100vh;
   color: #fff;
   padding: 10px 0;
 }
