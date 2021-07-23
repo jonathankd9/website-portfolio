@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 body {
@@ -31,7 +31,7 @@ h1 {
 }
 p {
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 img {
   width: 100%;
@@ -84,20 +84,20 @@ img {
   margin: 0 5px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 5px 50px;
-  background-color: rgb(106, 106, 106);
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  border: none;
-}
+// .btn {
+//   display: inline-block;
+//   padding: 5px 50px;
+//   background-color: rgb(106, 106, 106);
+//   color: white;
+//   cursor: pointer;
+//   border-radius: 5px;
+//   border: none;
+// }
 
-.btn-outline {
-  background-color: #fff;
-  color: #333;
-}
+// .btn-outline {
+//   background-color: #fff;
+//   color: #333;
+// }
 
 .btn:hover {
   transform: scale(1.1);
@@ -148,9 +148,9 @@ i:hover {
   text-align: center;
 }
 .card {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(36, 35, 35);
   border-radius: 10px;
-  color: #333;
+  color: #fff;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin: 10px;

@@ -147,7 +147,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 body {
@@ -173,7 +173,7 @@ h1 {
 
 p {
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 img {
@@ -228,21 +228,6 @@ img {
 
 .socials a {
   margin: 0 5px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 5px 50px;
-  background-color: #6a6a6a;
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  border: none;
-}
-
-.btn-outline {
-  background-color: #fff;
-  color: #333;
 }
 
 .btn:hover {
@@ -301,9 +286,9 @@ i:hover {
 }
 
 .card {
-  background-color: #a0a0a0;
+  background-color: #242323;
   border-radius: 10px;
-  color: #333;
+  color: #fff;
   -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
   padding: 20px;
