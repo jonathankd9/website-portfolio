@@ -1,85 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="/images/favicon.png"
     />
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Jonathan Kofi Donkor | Frontend Developer</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="navbar">
-        <div class="container flex">
-            <a href="index.html"><img class="logo" src="/images/favicon.png" alt=""></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active-link">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>   
+      <div class="container flex">
+        <a href="index.html"
+          ><img class="logo" src="/images/favicon.png" alt=""
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active-link">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#services-me">Services</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    
+
     <!-- Section 1 -->
     <section class="profile">
-        <div class="container">
-            <img class="profile-img" src="/images/passport.jpg" alt="">
-            <h1>Jonathan Kofi Donkor</h1>
-            <p>I am a Web Developer</p>
+      <div class="container">
+        <img class="profile-img" src="/images/passport.jpg" alt="" />
+        <h1>Jonathan Kofi Donkor</h1>
+        <p class="my-1">I am a Freelance Web Developer and Graphic Designer</p>
 
-            <div class="socials">
-                <a href="http://www.twitter.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-twitter"></i></span></a>
-                <a href="http://www.instagram.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-instagram"></i></span></a>
-                <a href="http://www.facebook.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-facebook"></i></span></a>
-                <a href="http://www.github.com/jonathankd9" target="_blank"><span style="font-size: 2em"><i class="fab fa-github"></i></span></a>
-            </div>
-
-            <button class="btn lead m-1"><p>Hire Me</p></button>
+        <div class="socials">
+          <a href="http://www.twitter.com/jonathankd9" target="_blank"
+            ><span style="font-size: 2em"><i class="fab fa-twitter"></i></span
+          ></a>
+          <a href="http://www.instagram.com/jonathankd9" target="_blank"
+            ><span style="font-size: 2em"><i class="fab fa-instagram"></i></span
+          ></a>
+          <a href="http://www.facebook.com/jonathankd9" target="_blank"
+            ><span style="font-size: 2em"><i class="fab fa-facebook"></i></span
+          ></a>
+          <a href="http://www.github.com/jonathankd9" target="_blank"
+            ><span style="font-size: 2em"><i class="fab fa-github"></i></span
+          ></a>
         </div>
 
+        <button class="btn lead m-1"><p>Hire Me</p></button>
+      </div>
     </section>
-    <hr>
+    <hr />
 
-<!-- About me section -->
+    <!-- About me section -->
     <section class="about-me" id="about-me">
-        <div class="container">
-            <div class="profile-about">
-
-                <h1 class="lg">About Me</h1>
-                <div class="about-me-grid">
-                    <div>
-                        <img src="/images/jonathan.jpg" alt="">
-                    </div>
-                    <div>
-                        <div>
-                            <p>I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-                            <button class="btn lead my-1"><p>Download My CV</p></button>
-                        </div>
-                        <div>
-                            Development
-                            UI/UX design
-                            Photography
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+          <h1 class="lg my-2">About Me</h1>
+          <div class="about-me-grid flex-about my-5">
+            <div>
+              <img id= "about-img" src="/images/jonathan.jpg" alt="" />
             </div>
+            <div class="about-me-dev">
+              <div>
+                <p class="my-1">
+                  I am <span style="font-weight: bold; color: yellow;">Jonathan Kofi Donkor</span>, Web developer from New York, United States. I
+                  have rich experience in web site design and building and
+                  customization, also I am good at WordPress Customization.
+                </p>
+                <p><span style="font-weight: bold;">Age:</span> 21</p>
+                <p><span style="font-weight: bold;">School:</span> University of Ghana, Legon</p>
+                <p><span style="font-weight: bold;">Languages:</span> Html, SASS, Javascript, Java, Python, React, PHP, SQL</p>
+                <button class="btn lead my-1"><p>Download My CV</p></button>
+              </div>
+              
+            </div>
+          </div>
+          <!-- Projects completed -->
+          <div class="projects-comp flex">
+              <div class="icon-flex">
+                <i class="fa fa-apple-alt" style="font-size:60px;color:rgb(160, 160, 160);"></i>
+                <div>
+                    <h2>198</h2>
+                    <p>Projects Completed</p>
+                </div>
+              </div>
+              <div class="icon-flex">
+                <i class="fa fa-mug-hot" style="font-size:60px;color:rgb(160, 160, 160);"></i>
+                <div>
+                    <h2>5670</h2>
+                    <p>Cup of Coffee</p>
+                </div>
+              </div>
+              <div class="icon-flex">
+                <i class="fa fa-user-friends" style="font-size:60px;color:rgb(160, 160, 160);"></i>
+                <div>
+                    <h2>427</h2>
+                    <p>Satisfied Clients</p>
+                </div>
+              </div>
+              <div class="icon-flex">
+                <i class="fa fa-award" style="font-size:60px;color:rgb(160, 160, 160);"></i>
+                <div>
+                    <h2>35</h2>
+                    <p>Nomineees Winner</p>
+                </div>
+              </div>
+          </div>
         </div>
+      </div>
     </section>
+
+    <hr>
+    <!-- Services -->
+
+    <section class="services" id="services-me">
+        <div class="container">
+            <h1 class="lg my-5">Services</h1>
+
+            <div class="services-grid-3 my-1">
+              <div class="blue card">
+                <img class= "my-1" src="/images/web-programming.svg" alt="">
+                <h2 class="">Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+
+              </div>
+              <div class="yellow card">
+                <img class= "my-1" src="/images/paint-palette.svg" alt="">
+                <h2>UI/ UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+              </div>
+              <div class="red card">
+                <img class= "my-1" src="/images/camera.svg" alt="">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+              </div>
+            </div>
+
+            <div><p style="text-align:center" class="my-4">Looking for a custom job? <a href="#about-me"><span style="color:yellow; font-weight: bold;">Click here</span></a> to contact me!</p></div>
+        </div>
+      </section>
+
+      <hr>
+      <!-- Contact me -->
+
+      <section class="contact" id= "contact-me">
+        <div class="container">
+          <h1 class="lg my-5">Get in touch</h1>
+          <div class="grid-contact">
+            <div class="in-touch">
+              <h2 class="my-1">Let's talk about everything!</h2>
+              <p>Don't like forms? Send me an <a href="mailto:jkd6735@gmail.com"><span>email</span></a>. 👏</p>
+            </div>
+            <div class="form">
+              <form action="">
+                <div class="grid my-1">
+                  <div><input class= "form-me lead" type="text" name="name" id="" placeholder="Your Name"></div>
+                  <div><input class= "form-me lead" type="email" name="email" id="" placeholder="Email Address"></div>
+                </div>
+                <div class="my-1">
+                  <input class= "form-me lead" type="text" name="subject" id="" placeholder="Subject">
+                </div>
+                <div class="my-1">
+                  <textarea class= "form-me lead" name="message" id="" cols="" rows="5" placeholder="Message"></textarea>
+                </div>
+                <button class="btn-send lead">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <a id="to-top" href="#">Back to top</a>
-</body>
+  </body>
 </html>
