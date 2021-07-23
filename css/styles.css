@@ -35,6 +35,10 @@
   gap: 50px;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 .my-1 {
   margin: 1rem 0;
 }
@@ -208,16 +212,6 @@ img {
 .navbar .btn:hover {
   background-color: #6a6a6a;
   color: #fff;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
 }
 
 .profile {

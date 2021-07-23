@@ -35,6 +35,10 @@
   gap: 50px;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 .my-1 {
   margin: 1rem 0;
 }
