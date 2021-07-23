@@ -251,6 +251,8 @@ img {
   background-color: #242323;
   border-radius: 15px;
   padding: 15px 35px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .projects-comp {
@@ -289,8 +291,8 @@ i:hover {
   background-color: #242323;
   border-radius: 10px;
   color: #fff;
-  -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   padding: 20px;
   margin: 10px;
 }
