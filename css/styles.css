@@ -210,6 +210,16 @@ img {
   color: #fff;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .profile {
   color: #fff;
   padding: 50px 0;
