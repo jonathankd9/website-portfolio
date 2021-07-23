@@ -170,7 +170,8 @@ i:hover {
 }
 .grid-contact {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40% 55%;
+  gap: 30px;
 }
 .grid {
   gap: 20px;
@@ -203,7 +204,7 @@ i:hover {
 // More
 .more {
   color: #fff;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
