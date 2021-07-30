@@ -38,7 +38,9 @@ p {
 .logo {
   height: 100%;
   width: 60px;
+  border-radius: 50%;
 }
+
 .navbar {
   background-color: #333;
   color: #fff;
@@ -53,19 +55,25 @@ p {
       margin: 0 5px;
 
       &:hover {
-        border: 2px white solid;
+        border: 2px #ffde29 solid;
       }
     }
   }
   .active-link,
   .btn:hover {
-    background-color: rgb(106, 106, 106);
+    background-color: #ffde29;
     color: #fff;
   }
 }
 
 // First Section
 .profile {
+  // background: rgb(35, 37, 38);
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(35, 37, 38, 1) 0%,
+  //   rgba(65, 67, 69, 1) 100%
+  // );
   color: #fff;
   padding: 50px 0;
   text-align: center;
@@ -127,6 +135,7 @@ p {
   gap: 15px;
 }
 i:hover {
+  color: #ffde29;
   transform: scale(1.3);
 }
 
@@ -196,18 +205,9 @@ i:hover {
   font-weight: bold;
 
   &:hover {
-    background-color: black;
-    color: #fff;
+    background-color: #ffde29;
+    color: #000;
   }
-}
-
-// More
-.more {
-  color: #fff;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 // Back to the top
