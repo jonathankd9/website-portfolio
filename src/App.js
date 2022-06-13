@@ -1,29 +1,22 @@
-import React from "react"
-import Header from "./component/Head/Header"
-import Features from "./component/Features/Features"
-import Home from "./component/Hero/Home"
-import Portfolio from "./component/Portfolio/Portfolio"
-import Resume from "./component/Resume/Resume"
-import Testimonial from "./component/Testimonial/Testimonial"
-import Blog from "./component/Blog/Blog"
-import Contact from "./component/Contact/Contact"
-import Footer from "./component/Footer"
-import "./App.css"
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 
-const App = () => {
+
+function App() {
   return (
-    <>
-      <Header />
+    <div>
+      <Navbar />
       <Home />
-      <Features />
-      <Portfolio />
-      <Resume />
-      <Testimonial />
-      <Blog />
+      <About />
+      <Skills />
+      <Work />
       <Contact />
-      <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
