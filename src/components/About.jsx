@@ -17,7 +17,7 @@ const About = () => {
               <p>Hi. I'm Joe, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I am on wild journey of growing my business and help other people put their business online, grow and make sales. The mission is to help businesses and entrepreneurs solve their problems. I am a Young Entrepreneur consumed by the desire to solve every problem, always learning, whether its how to lead, grow and get the experience in the Internet of things.
+              <p>Currently saying yes to all new adventures and hey, I am on wild journey of growing my business and help other people put their businesses online, grow and make sales. The mission is to help businesses and entrepreneurs solve their problems. I am a Young Entrepreneur consumed by the desire to solve every problem, always learning, whether its how to lead, grow and get the experience in the Internet of things.
               </p>
             </div>
           </div>

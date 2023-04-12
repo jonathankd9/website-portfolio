@@ -11,11 +11,11 @@ const Home = () => {
           Jonathan K Donkor
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Web Developer and Digital Publisher.
+          I'm a Frontend Developer, Designer, Writer
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a Web Developer specializing in creating online presence for business and creating digital products. 
-          I am currently focused on creating Informational content on the web. 
+          I’m a Frontend Web Developer specializing in creating online presence for business and creating digital products. 
+          I am currently focused on creating informational content on the web. 
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
