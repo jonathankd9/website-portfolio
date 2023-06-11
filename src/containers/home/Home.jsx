@@ -38,7 +38,7 @@ const Home = () => {
 
 			{/* About Me Section */}
 			<div className="bg-[#F8F8F9] min-h-screen flex justify-center items-start py-28">
-				<div className="w-[81rem] justify-center items-start grid grid-cols-2 gap-24 md:grid-cols-1">
+				<div className="w-[81rem] justify-center items-start grid grid-cols-2 gap-24">
 					{/* Services */}
 					<div className="">
 						<p className="mb-5 text-sm text-lightash">SERVICES</p>
@@ -59,7 +59,7 @@ const Home = () => {
 					</div>
 
 					{/* Organic growth and paid growth */}
-					<div className="grid grid-cols-2 gap-12 sm:grid-cols-1">
+					<div className="grid grid-cols-2 gap-12">
 						<div className="">
 							<p className="mb-5 text-sm text-lightash">ORGANIC GROWTH</p>
 							<hr />
