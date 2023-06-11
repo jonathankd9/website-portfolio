@@ -103,6 +103,8 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* Contact us section */}
 		</div>
 	);
 };
