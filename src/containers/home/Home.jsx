@@ -105,6 +105,38 @@ const Home = () => {
 			</div>
 
 			{/* Contact us section */}
+
+			{/* Footer section */}
+			<div className="bg-[#16161B] flex flex-col justify-center items-center py-20">
+				<div className="w-[81rem] justify-center items-center grid grid-cols-2 gap-24 text-white">
+					<div className="">
+						<p className="font-bold text-2xl text-[#D90A2C] mb-7">
+							Jonathan Kofi Donkor
+						</p>
+						<div className="grid grid-cols-1">
+							<a href="#">YouTube</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+						</div>
+					</div>
+
+					<div className="">
+						<p className="font-bold text-2xl mb-7">Contact me</p>
+
+						<p>Want to reach out?</p>
+						<p>
+							Email me:{" "}
+							<a href="mailto:jonathankd9@gmail.com">jonathankd9@gmail.com</a>
+						</p>
+					</div>
+				</div>
+
+				<hr style={{ borderTop: "1px solid black" }} />
+
+				<p className="mt-10 text-white text-base">
+					© 2023, Jonathan Kofi Donkor. Made with Reactjs and Tailwindcss 🚀.
+				</p>
+			</div>
 		</div>
 	);
 };
