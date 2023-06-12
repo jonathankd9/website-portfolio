@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./../../assets/hero.jpeg";
+import Seo from "./../../assets/seo.png";
 
 const Home = () => {
 	return (
@@ -23,13 +24,15 @@ const Home = () => {
 						</a>
 					</div>
 					{/* Call to Action */}
-					<button>SEO Mastery</button>
+					<button className="rounded-md bg-gray-950 text-white p-3 mt-5 px-5">
+						SEO Mastery
+					</button>
 				</div>
 			</div>
 
 			{/* Hero Section */}
 			<div className="bg-white">
-				<div className="container bg-white flex justify-center items-center py-5">
+				<div className="container bg-white py-5">
 					<div className="justify-center items-center grid grid-cols-2">
 						<div className="pr-40">
 							<p className="text-xl">
@@ -48,7 +51,7 @@ const Home = () => {
 
 			{/* About Me Section */}
 			<div className="bg-[#F8F8F9]">
-				<div className="container bg-[#F8F8F9] flex justify-center items-start py-28">
+				<div className="container bg-[#F8F8F9] py-28">
 					<div className="justify-center items-start grid grid-cols-2 gap-24">
 						{/* Services */}
 						<div className="">
@@ -115,9 +118,43 @@ const Home = () => {
 				</div>
 			</div>
 
+			{/* White line */}
+			<hr style={{ borderTop: "2px solid white" }} />
+
+			{/* Learn Course */}
+			<div className="bg-[#F8F8F9]">
+				<div className="container bg-[#F8F8F9] py-28">
+					<div className="grid grid-cols-2 gap-10 text-black">
+						<div className="justify-center items-center flex flex-col">
+							<img src={Seo} alt="" />
+							<button className="rounded-md bg-gray-950 text-white p-3 mt-5 px-5">
+								SEO Mastery Course
+							</button>
+						</div>
+						<div className="">
+							<p className="mb-5 text-sm text-lightash">MY SEO COURSE</p>
+							<hr />
+							<h2 className="text-[54px] font-bold mt-5">Learn SEO</h2>
+							<p className="pb-5">
+								I just recently launched my complete SEO course. This is all of
+								my SEO knowledge into one course. All my years of testing,
+								working with clients, being a Head of SEO, and a current CMO.
+							</p>
+							<p>
+								I’m excited to share this course with you guys, use code
+								“Pre-sale” at checkout for 30% off before the course officially
+								launches in late august. I’m excited to share this course with
+								you guys, use code “Pre-sale” at checkout for 30% off before the
+								course officially launches in late august.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			{/* Contact us section */}
 			<div className="bg-[#FEFFFE]">
-				<div className="container bg-[#FEFFFE] flex flex-col justify-center items-center py-20">
+				<div className="container bg-[#FEFFFE] py-20">
 					<div className="justify-center items-start grid grid-cols-3 gap-24 text-[#17161A]">
 						{/* Get in touch */}
 						<div className="">
@@ -227,7 +264,7 @@ const Home = () => {
 
 			{/* Footer section */}
 			<div className="bg-[#16161B]">
-				<div className="container bg-[#16161B] flex flex-col justify-center  py-20">
+				<div className="container bg-[#16161B]  py-20">
 					<div className="justify-center items-center grid grid-cols-2 gap-24 text-white">
 						<div className="">
 							<p className="font-bold text-2xl text-[#D90A2C] mb-7">
@@ -248,7 +285,7 @@ const Home = () => {
 							</p>
 						</div>
 					</div>
-					<hr style={{ borderTop: "1px solid #FAF9F6", marginTop: 20 }} />
+					<hr style={{ borderTop: "1px solid #FAF9F6", marginTop: 40 }} />
 					<p className="mt-10 text-white text-base">
 						© 2023, Jonathan Kofi Donkor. Made with Reactjs and Tailwindcss 🚀.
 					</p>
