@@ -8,7 +8,7 @@ const Home = () => {
 			{/* navbar */}
 			<div className="bg-[#F8F8F9]">
 				<div className="container flex justify-between bg-[#F8F8F9] items-center py-5">
-					<div className="text-3xl font-bold underline text-black">
+					<div className="text-3xl font-bold text-black">
 						Jonathan Kofi Donkor
 					</div>
 					{/* Links */}
