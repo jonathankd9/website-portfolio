@@ -32,8 +32,8 @@ const Home = () => {
 				<div className="container bg-white flex justify-center items-center py-5">
 					<div className="justify-center items-center grid grid-cols-2">
 						<div className="pr-40">
-							<p className="text-xl font-bold">
-								An ex-Head of SEO helping people learn about SEO on Youtube.
+							<p className="text-xl">
+								A Freelance Blogger, Marketer and Developer....
 							</p>
 							<h1 className="text-[88px] space-grotesk font-bold leading-none">
 								Hey, I'm Jonathan.
@@ -227,7 +227,7 @@ const Home = () => {
 
 			{/* Footer section */}
 			<div className="bg-[#16161B]">
-				<div className="container bg-[#16161B] flex flex-col justify-center items-center py-20">
+				<div className="container bg-[#16161B] flex flex-col justify-center  py-20">
 					<div className="justify-center items-center grid grid-cols-2 gap-24 text-white">
 						<div className="">
 							<p className="font-bold text-2xl text-[#D90A2C] mb-7">
@@ -248,7 +248,7 @@ const Home = () => {
 							</p>
 						</div>
 					</div>
-					<hr style={{ borderTop: "1px solid black" }} />
+					<hr style={{ borderTop: "1px solid #FAF9F6", marginTop: 20 }} />
 					<p className="mt-10 text-white text-base">
 						© 2023, Jonathan Kofi Donkor. Made with Reactjs and Tailwindcss 🚀.
 					</p>
