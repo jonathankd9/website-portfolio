@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 		<div>
 			{/* navbar */}
-			<div className="">
+			<div className="bg-[#F8F8F9]">
 				<div className="container flex justify-between bg-[#F8F8F9] items-center py-5">
 					<div className="text-3xl font-bold text-black">
 						Jonathan Kofi Donkor
@@ -24,9 +24,11 @@ const Home = () => {
 						</a>
 					</div>
 					{/* Call to Action */}
-					<button className="rounded-md bg-gray-950 text-white p-3 mt-5 px-5">
-						SEO Mastery
-					</button>
+					<a href="">
+						<button className="rounded-md bg-gray-950 text-white p-3 mt-5 px-5">
+							SEO Mastery
+						</button>
+					</a>
 				</div>
 			</div>
 
@@ -114,6 +116,54 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* What I Do */}
+			<div className="bg-[white]">
+				<div className="container bg-[white] py-28">
+					{/* What i do */}
+					<div className="">
+						<p className="mb-5 text-sm text-lightash">WHAT I DO</p>
+						<hr />
+					</div>
+
+					<div className="justify-center items-start grid grid-cols-2 gap-24">
+						<h2 className="text-[54px] font-bold mt-5 leading-none">
+							Become my next client by reaching out today
+						</h2>
+						<p className="my-5">
+							Yet branding today is more than just a look or a logo. It has come
+							to signify the emotional "gut feeling" reaction a company can
+							elicit from its customers. All our projects are made with love.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			{/* Testimonials */}
+			<div className="bg-[white]">
+				<div className="container bg-[white] py-28">
+					{/* Trust */}
+					<div className="">
+						<p className="mb-5 text-sm text-lightash">SATISFIED CUSTOMERS</p>
+						<hr />
+					</div>
+
+					<div className="justify-center items-start grid grid-cols-3 gap-10">
+						<div className="">
+							<h1 className="text-[54px] font-bold mt-5 leading-none ">
+								Trusted By Many
+							</h1>
+							<p>
+								Yet branding today is more than just a look or a logo. It has
+								come to signify the emotional "gut feeling" reaction a company
+								can elicit from its customers. All our projects are made with
+								love.
+							</p>
+						</div>
+						<div className="my-5 col-span-2"></div>
 					</div>
 				</div>
 			</div>
