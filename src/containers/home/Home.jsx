@@ -16,19 +16,19 @@ const Home = () => {
 		<div>
 			{/* Hero Section */}
 
-			<div className="container flex flex-col">
-				<div className="my-24">
+			<div className="container">
+				<div className="my-24 flex flex-col justify-center items-center">
 					<div className="mb-5">
 						<img className="w-36 h-36" src={Profile} alt="" />{" "}
 					</div>
-					<div className=" ">
-						<p className="font-medium text-primary ">
-							I’m Jonathan – Digital Marketer, Web Developer and Blogger
+					<div className="">
+						<p className="text-center font-medium text-primary ">
+							I’m Jonathan <br /> Digital Marketer, Web Developer and Blogger
 						</p>
-						<p className="text-2xl">
+						<p className="text-2xl text-center">
 							I love building products, growing brands and generating REAL
-							SALES. I have a decade of experience with over websites, SEO and
-							marketing.
+							SALES. <br />I have a decade of experience with over websites, SEO
+							and marketing.
 						</p>
 					</div>
 				</div>
