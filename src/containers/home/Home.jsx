@@ -34,7 +34,9 @@ const Home = () => {
 			{/* About Me Section */}
 			<div className="bg-second">
 				<div className="container py-20">
-					<h2 className="text-primary font-medium mb-10">About Me</h2>
+					<span className=" text-[54px]  font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+						About Me
+					</span>
 					<hr />
 					<p className="mt-5">
 						Hello, Jonathan here. I am a Tech Nerd who is passionate about{" "}
@@ -66,7 +68,9 @@ const Home = () => {
 			<div className="container flex flex-col">
 				<div className="my-24">
 					<div className="mb-10">
-						<p className="text-primary font-medium mb-10">What I do</p>
+						<span className="text-[54px] font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+							What I do
+						</span>
 						<hr />
 					</div>
 
@@ -135,7 +139,9 @@ const Home = () => {
 			<div className="container flex flex-col">
 				<div className="">
 					<div className="mb-10">
-						<p className="text-primary font-medium mb-10">Projects</p>
+						<span className="text-[54px] font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+							Projects
+						</span>
 						<hr />
 					</div>
 
@@ -211,9 +217,9 @@ const Home = () => {
 			<div className="container flex flex-col my-12">
 				<div className="">
 					<div className="mb-10">
-						<p className="text-primary font-medium mb-10">
+						<span className="text-[54px]  font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
 							What clients are saying
-						</p>
+						</span>
 						<hr />
 					</div>
 
@@ -270,7 +276,13 @@ const Home = () => {
 				<div className="container  py-20">
 					<div className="flex flex-col gap-24">
 						<div className="">
-							<h2 className="text-[54px] font-bold mt-5">Get in touch</h2>
+							<span
+								className="text-[54px] 
+							font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500
+							"
+							>
+								Get in touch
+							</span>
 							<p>
 								Please don't hesitate to reach out to me about your project or
 								business.
