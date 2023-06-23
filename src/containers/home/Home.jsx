@@ -23,7 +23,10 @@ const Home = () => {
 					</div>
 					<div className="">
 						<p className="text-center font-medium text-primary ">
-							I’m Jonathan <br /> Digital Marketer, Web Developer and Blogger
+							I’m Jonathan
+						</p>
+						<p className="text-center font-light text-primary">
+							Digital Marketer, Web Developer and Blogger
 						</p>
 						<p className="text-2xl text-center">
 							I love building products, growing brands and generating REAL
