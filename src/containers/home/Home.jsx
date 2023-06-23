@@ -255,8 +255,8 @@ const Home = () => {
 									<p className="font-medium text-primary ">Anthony Aidoo</p>
 									<p className="text-lg">
 										"Thanks to Jonathan, I finally had the courage to share my
-										book with the world through my book, which is now selling
-										across the country."
+										book with the world, which is now selling across the
+										country."
 									</p>
 								</div>
 							</div>
