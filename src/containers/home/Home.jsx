@@ -4,6 +4,12 @@ import Blogging from "./../../assets/blogging.png";
 import SEO from "./../../assets/seo.png";
 import Web from "./../../assets/web.png";
 import Marketing from "./../../assets/marketing.png";
+import College from "./../../assets/collegebiology.png";
+import Cookie from "./../../assets/cookie.png";
+import Kiki from "./../../assets/kikibodyworks.png";
+import Lukins from "./../../assets/lukinsprod.png";
+import Anthony from "./../../assets/anthony.png";
+import Priscilla from "./../../assets/priscilla.png";
 
 const Home = () => {
 	return (
@@ -19,12 +25,9 @@ const Home = () => {
 						<p className="font-medium text-primary ">
 							I’m Jonathan – Digital Marketer, Web Developer and Blogger
 						</p>
-						<p className="">
+						<p className="text-2xl">
 							I love building products, growing brands and generating REAL
-							SALES.
-						</p>
-						<p className="">
-							I have a decade of experience with over websites, SEO and
+							SALES. I have a decade of experience with over websites, SEO and
 							marketing.
 						</p>
 					</div>
@@ -149,7 +152,7 @@ const Home = () => {
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
 							<div className="bg-second p-5 rounded-2xl sm:mb-10">
 								<div className="mb-5">
-									<img className="w-36 h-36" src={Profile} alt="" />
+									<img className="w-36 h-36" src={Cookie} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">
@@ -165,13 +168,14 @@ const Home = () => {
 							</div>
 							<div className=" bg-second p-5 rounded-2xl">
 								<div className="mb-5">
-									<img className="w-36 h-36" src={Profile} alt="" />
+									<img className="w-36 h-36" src={Kiki} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Kikibodyworks</p>
 									<p className="text-lg">
-										I create digital marketing strategies that increase online
-										visibility, generate leads and improve conversion rates.
+										Kikibodyworks is a brand that offers plant based organic
+										products for body enhancement. We provide the best products
+										for our clients to go on their body enhancement journey.
 									</p>
 								</div>
 							</div>
@@ -180,7 +184,7 @@ const Home = () => {
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
 							<div className=" bg-second p-5 rounded-2xl sm:mb-10">
 								<div className="mb-5">
-									<img className="w-36 h-36" src={Profile} alt="" />
+									<img className="w-36 h-36" src={Lukins} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Lukins Production</p>
@@ -195,7 +199,7 @@ const Home = () => {
 							</div>
 							<div className="bg-second p-5 rounded-2xl">
 								<div className="mb-5">
-									<img className="w-36 h-36" src={Profile} alt="" />
+									<img className="w-32 " src={College} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">
@@ -217,7 +221,7 @@ const Home = () => {
 			<div className="container flex flex-col my-12">
 				<div className="">
 					<div className="mb-10">
-						<span className="text-[54px]  font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+						<span className="text-[54px] font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 sm:leading-10">
 							What clients are saying
 						</span>
 						<hr />
@@ -231,26 +235,28 @@ const Home = () => {
 						<div className="md:flex gap-5 sm:flex-wrap">
 							<div className="flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
 								<div className="mb-5">
-									<img className="w-36 h-36" src={Web} alt="" />
+									<img className="w-36 h-36" src={Priscilla} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Priscilla Sekum</p>
 									<p className="text-lg">
-										I specialize in creating custom websites and web
-										applications that are both functional and visually
-										appealing, proficient in Reactjs, React Native, Nextjs.
+										"I owe it all to Jonathan's expertise and dedication.
+										Working with him was an absolute pleasure and I would
+										recommend them to anyone looking for top-notch website
+										development services."
 									</p>
 								</div>
 							</div>
 							<div className="flex-1 bg-second p-5 rounded-2xl mb-10">
 								<div className="mb-5">
-									<img className="w-36 h-36" src={Marketing} alt="" />
+									<img className="w-36 h-36" src={Anthony} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Anthony Aidoo</p>
 									<p className="text-lg">
-										I create digital marketing strategies that increase online
-										visibility, generate leads and improve conversion rates.
+										"Thanks to Jonathan, I finally had the courage to share my
+										book with the world through my book, which is now selling
+										across the country."
 									</p>
 								</div>
 							</div>
@@ -278,7 +284,7 @@ const Home = () => {
 						<div className="">
 							<span
 								className="text-[54px] 
-							font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500
+							font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 sm:leading-10
 							"
 							>
 								Get in touch
@@ -291,7 +297,10 @@ const Home = () => {
 							<p className="">Want to reach out?</p>
 							<p className="">
 								Shoot me mail:{" "}
-								<a className="text-primary" href="mailto:jonathankd9@gmail.com">
+								<a
+									className="text-primary text-lg"
+									href="mailto:jonathankd9@gmail.com"
+								>
 									jonathankd9@gmail.com
 								</a>
 							</p>
