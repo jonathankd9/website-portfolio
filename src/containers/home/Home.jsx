@@ -1,309 +1,128 @@
 import React from "react";
-import Hero from "./../../assets/hero.jpeg";
-import Seo from "./../../assets/seo.png";
+import Profile from "./../../assets/profile.png";
+import Blogging from "./../../assets/blogging.png";
+import SEO from "./../../assets/seo.png";
+import Web from "./../../assets/web.png";
+import Marketing from "./../../assets/marketing.png";
 
 const Home = () => {
 	return (
 		<div>
-			{/* navbar */}
-			<div className="bg-[#F8F8F9]">
-				<div className="container flex justify-between bg-[#F8F8F9] items-center py-5">
-					<div className="text-3xl font-bold text-black">
-						Jonathan Kofi Donkor
-					</div>
-					{/* Links */}
-					<div className="flex gap-5">
-						<a href="" className="">
-							About
-						</a>
-						<a href="" className="">
-							Projects
-						</a>
-						<a href="" className="">
-							Contact me
-						</a>
-					</div>
-					{/* Call to Action */}
-					<a href="">
-						<button className="rounded-md bg-gray-950 text-white p-3 mt-5 px-5">
-							SEO Mastery
-						</button>
-					</a>
-				</div>
-			</div>
-
 			{/* Hero Section */}
-			<div className="bg-white">
-				<div className="container bg-white py-5">
-					<div className="justify-center items-center grid grid-cols-2">
-						<div className="pr-40">
-							<p className="text-xl">
-								A Freelance Blogger, Marketer and Developer....
-							</p>
-							<h1 className="text-[88px] space-grotesk font-bold leading-none">
-								Hey, I'm Jonathan.
-							</h1>
-						</div>
-						<div className="">
-							<img src={Hero} alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
 
-			{/* About Me Section */}
-			<div className="bg-[#F8F8F9]">
-				<div className="container bg-[#F8F8F9] py-28">
-					<div className="justify-center items-start grid grid-cols-2 gap-24">
-						{/* Services */}
-						<div className="">
-							<p className="mb-5 text-sm text-lightash">SERVICES</p>
-							<hr />
-							<h2 className="text-[54px] font-bold mt-5">About me</h2>
-							<p className="my-5">
-								I’m a marketing nerd based out of Barcelona, Spain.
-							</p>
-							<p className="my-5">
-								You can usually find me breaking down successful SEO strategies
-								on my YT channel, helping my clients with their online growth,
-								or running a new SEO test on a website of mine!
-							</p>
-							<p className="my-5">
-								I’m always open to collaborations or new projects so don’t
-								hesitate to contact me.
-							</p>
-						</div>
-						{/* Organic growth and paid growth */}
-						<div className="grid grid-cols-2 gap-12">
-							<div className="">
-								<p className="mb-5 text-sm text-lightash">ORGANIC GROWTH</p>
-								<hr />
-								<p className="text-2xl	font-bold text-black my-7">SEO</p>
-								<p className="mb-10">
-									Investing in your organic visibility means building a
-									sustainable long-term online business.
-								</p>
-							</div>
-							<div className="">
-								<p className="mb-5 text-sm text-lightash">SERVICES</p>
-								<hr />
-								<p className="text-2xl font-bold text-black my-7">PPC</p>
-								<p className="mb-10">
-									A strong organic presence should always be supported by a
-									powerful paid strategy to completely take over search.
-								</p>
-							</div>
-							<div className="">
-								<p>SERVICES</p>
-								<hr />
-								<p className="text-2xl	font-bold text-black my-7">
-									Web Development
-								</p>
-								<p className="mb-10">
-									Your website is most likely the core of your business. Build
-									it with someone that can prepare it for war.
-								</p>
-							</div>
-							<div className="">
-								<p>SERVICES</p>
-								<hr />
-								<p className="text-2xl	font-bold text-black my-7">
-									Marketing & Content Creation
-								</p>
-								<p className="mb-10">
-									Struggling in any of these areas? Let’s hop on a call and see
-									how we can fix that.
-								</p>
-							</div>
-						</div>
+			<div className="container flex flex-col">
+				<div className="my-24">
+					<div className="mb-5">
+						<img className="w-36 h-36" src={Profile} alt="" />{" "}
 					</div>
-				</div>
-			</div>
-
-			{/* What I Do */}
-			<div className="bg-[white]">
-				<div className="container bg-[white] py-28">
-					{/* What i do */}
-					<div className="">
-						<p className="mb-5 text-sm text-lightash">WHAT I DO</p>
-						<hr />
-					</div>
-
-					<div className="justify-center items-start grid grid-cols-2 gap-24">
-						<h2 className="text-[54px] font-bold mt-5 leading-none">
-							Become my next client by reaching out today
-						</h2>
-						<p className="my-5">
-							Yet branding today is more than just a look or a logo. It has come
-							to signify the emotional "gut feeling" reaction a company can
-							elicit from its customers. All our projects are made with love.
+					<div className=" ">
+						<p className="font-medium text-primary ">
+							I’m Jonathan – Digital Marketer, Web Developer and Blogger
+						</p>
+						<p className="">
+							I love building products, growing brands and generating REAL
+							SALES.
+						</p>
+						<p className="">
+							I have a decade of experience with over websites, SEO and
+							marketing.
 						</p>
 					</div>
 				</div>
 			</div>
 
-			{/* Testimonials */}
-			<div className="bg-[white]">
-				<div className="container bg-[white] py-28">
-					{/* Trust */}
-					<div className="">
-						<p className="mb-5 text-sm text-lightash">SATISFIED CUSTOMERS</p>
+			{/* About Me Section */}
+			<div className="bg-second">
+				<div className="container py-20">
+					<h2 className="text-primary font-medium mb-10">About Me</h2>
+					<hr />
+					<p className="mt-5">
+						Hello, Jonathan here. I am a Tech Nerd who is passionate about{" "}
+						<span className="font-medium text-primary">
+							Web Development, Blogging, SEO
+						</span>{" "}
+						and{" "}
+						<span className="font-medium text-primary">Digital Marketing</span>{" "}
+						and based in Accra, Ghana.
+					</p>
+					<p>I have always been passionate about technology.</p>
+					<p>
+						After graduating from University of Ghana, Legon with a degree in
+						IT, I decided to pursue a career in web development and digital
+						marketing.
+					</p>
+					<p>
+						I enjoy writing about web development and digital marketing on my{" "}
+						<a className="font-medium text-primary" href="">
+							blog
+						</a>
+						.
+					</p>
+					<p></p>
+				</div>
+			</div>
+
+			{/* What i do */}
+			<div className="container flex flex-col">
+				<div className="my-24">
+					<div className="mb-10">
+						<p className="text-primary font-medium mb-10">What I do</p>
 						<hr />
 					</div>
 
-					<div className="justify-center items-start grid grid-cols-3 gap-10">
-						<div className="">
-							<h1 className="text-[54px] font-bold mt-5 leading-none ">
-								Trusted By Many
-							</h1>
-							<p>
-								Yet branding today is more than just a look or a logo. It has
-								come to signify the emotional "gut feeling" reaction a company
-								can elicit from its customers. All our projects are made with
-								love.
-							</p>
+					<div className="">
+						<div className="md:flex gap-5 sm:flex-wrap">
+							<div className="flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Web} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Web Development</p>
+									<p className="text-lg">
+										I specialize in creating custom websites and web
+										applications that are both functional and visually
+										appealing, proficient in Reactjs, React Native, Nextjs.
+									</p>
+								</div>
+							</div>
+							<div className="flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Marketing} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Digital Marketing</p>
+									<p className="text-lg">
+										I create digital marketing strategies that increase online
+										visibility, generate leads and improve conversion rates.
+									</p>
+								</div>
+							</div>
 						</div>
-						<div className="my-5 col-span-2"></div>
-					</div>
-				</div>
-			</div>
 
-			{/* White line */}
-			<hr style={{ borderTop: "2px solid white" }} />
-
-			{/* Learn Course */}
-			<div className="bg-[#F8F8F9]">
-				<div className="container bg-[#F8F8F9] py-28">
-					<div className="grid grid-cols-2 gap-10 text-black">
-						<div className="justify-center items-center flex flex-col">
-							<img src={Seo} alt="" />
-							<button className="rounded-md bg-gray-950 text-white p-3 mt-5 px-5">
-								SEO Mastery Course
-							</button>
-						</div>
-						<div className="">
-							<p className="mb-5 text-sm text-lightash">MY SEO COURSE</p>
-							<hr />
-							<h2 className="text-[54px] font-bold mt-5">Learn SEO</h2>
-							<p className="pb-5">
-								I just recently launched my complete SEO course. This is all of
-								my SEO knowledge into one course. All my years of testing,
-								working with clients, being a Head of SEO, and a current CMO.
-							</p>
-							<p>
-								I’m excited to share this course with you guys, use code
-								“Pre-sale” at checkout for 30% off before the course officially
-								launches in late august. I’m excited to share this course with
-								you guys, use code “Pre-sale” at checkout for 30% off before the
-								course officially launches in late august.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			{/* Contact us section */}
-			<div className="bg-[#FEFFFE]">
-				<div className="container bg-[#FEFFFE] py-20">
-					<div className="justify-center items-start grid grid-cols-3 gap-24 text-[#17161A]">
-						{/* Get in touch */}
-						<div className="">
-							<h2 className="text-[54px] font-bold mt-5">Get in touch</h2>
-							<p>
-								Please fill out the contact form on the right or contact me
-								directly through my email:
-							</p>
-							<p className="font-bold mt-5">jonathankd9@gmail.com</p>
-						</div>
-						{/* Contact box */}
-						<div className="col-span-2">
-							<div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-								<div className="sm:col-span-3">
-									<label
-										htmlFor="first-name"
-										className="block text-sm font-medium leading-6 text-gray-900"
-									>
-										Name (required)
-									</label>
-									<div className="mt-2">
-										<input
-											type="text"
-											name="first-name"
-											id="first-name"
-											autoComplete="given-name"
-											className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-										/>
-									</div>
+						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
+							<div className="flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Blogging} alt="" />
 								</div>
-								<div className="sm:col-span-3">
-									<label
-										htmlFor="last-name"
-										className="block text-sm font-medium leading-6 text-gray-900"
-									>
-										Email (required)
-									</label>
-									<div className="mt-2">
-										<input
-											type="email"
-											name="email"
-											id="email"
-											autoComplete="email"
-											className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-										/>
-									</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Blogging</p>
+									<p className="text-lg">
+										I specialize in creating engaging and informative blog posts
+										that resonate with readers and drive traffic to your
+										website.
+									</p>
 								</div>
-								<div className="sm:col-span-3">
-									<label
-										htmlFor="company"
-										className="block text-sm font-medium leading-6 text-gray-900"
-									>
-										Company (optional)
-									</label>
-									<div className="mt-2">
-										<input
-											type="text"
-											name="compnay"
-											id="company"
-											autoComplete="company"
-											className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-										/>
-									</div>
+							</div>
+							<div className="flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={SEO} alt="" />
 								</div>
-								<div className="sm:col-span-3">
-									<label
-										htmlFor="Subject"
-										className="block text-sm font-medium leading-6 text-gray-900"
-									>
-										Subject (optional)
-									</label>
-									<div className="mt-2">
-										<input
-											type="text"
-											name="subject"
-											id="subject"
-											autoComplete="subject"
-											className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-										/>
-									</div>
-								</div>
-								<div className="col-span-full">
-									<label
-										htmlFor="about"
-										className="block text-sm font-medium leading-6 text-gray-900"
-									>
-										About
-									</label>
-									<div className="mt-2">
-										<textarea
-											id="about"
-											name="about"
-											rows={3}
-											className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-											defaultValue={""}
-										/>
-									</div>
-									<p className="mt-3 text-sm leading-6 text-gray-600">
-										Brief project details.
+								<div className=" ">
+									<p className="font-medium text-primary ">SEO</p>
+									<p className="text-lg">
+										I specialize in maximizing your website's search engine
+										visibility through comprehensive SEO strategies that improve
+										rankings, drive traffic and generate leads.
 									</p>
 								</div>
 							</div>
@@ -312,32 +131,173 @@ const Home = () => {
 				</div>
 			</div>
 
-			{/* Footer section */}
-			<div className="bg-[#16161B]">
-				<div className="container bg-[#16161B]  py-20">
-					<div className="justify-center items-center grid grid-cols-2 gap-24 text-white">
-						<div className="">
-							<p className="font-bold text-2xl text-[#D90A2C] mb-7">
-								Jonathan Kofi Donkor
-							</p>
-							<div className="grid grid-cols-1">
-								<a href="#">YouTube</a>
-								<a href="#">Twitter</a>
-								<a href="#">Instagram</a>
+			{/* Projects */}
+			<div className="container flex flex-col">
+				<div className="">
+					<div className="mb-10">
+						<p className="text-primary font-medium mb-10">Projects</p>
+						<hr />
+					</div>
+
+					<div className="">
+						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
+							<div className="bg-second p-5 rounded-2xl sm:mb-10">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Profile} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">
+										Cookie Restore Lab
+									</p>
+									<p className="text-lg">
+										Cookie Restore Lab is a feminine wellness brand created to
+										assist women with the best care and plant derived products
+										for their delicate parts to eliminate vaginal infections and
+										other common feminine issues.
+									</p>
+								</div>
+							</div>
+							<div className=" bg-second p-5 rounded-2xl">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Profile} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Kikibodyworks</p>
+									<p className="text-lg">
+										I create digital marketing strategies that increase online
+										visibility, generate leads and improve conversion rates.
+									</p>
+								</div>
 							</div>
 						</div>
+
+						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
+							<div className=" bg-second p-5 rounded-2xl sm:mb-10">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Profile} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Lukins Production</p>
+									<p className="text-lg">
+										We conduct comprehensive research on the latest AI and UI/UX
+										developments, industry competition, trends, successes and
+										failures, as well as customer behavior and preferences to
+										create customized solutions that effectively convert for our
+										clients.
+									</p>
+								</div>
+							</div>
+							<div className="bg-second p-5 rounded-2xl">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Profile} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">
+										A1 College Biology
+									</p>
+									<p className="text-lg">
+										A1 College Biology is a holistic Biology text book which has
+										been approved by Ghana Education Service to be used as
+										supplementary textbook in Senior High Schools
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Testimonials */}
+			<div className="container flex flex-col my-12">
+				<div className="">
+					<div className="mb-10">
+						<p className="text-primary font-medium mb-10">
+							What clients are saying
+						</p>
+						<hr />
+					</div>
+
+					<div className="">
+						<p>
+							I take pride in delivering high-quality work that meets my
+							clients' needs and exceeds their expectations.
+						</p>
+						<div className="md:flex gap-5 sm:flex-wrap">
+							<div className="flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Web} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Priscilla Sekum</p>
+									<p className="text-lg">
+										I specialize in creating custom websites and web
+										applications that are both functional and visually
+										appealing, proficient in Reactjs, React Native, Nextjs.
+									</p>
+								</div>
+							</div>
+							<div className="flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="mb-5">
+									<img className="w-36 h-36" src={Marketing} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Anthony Aidoo</p>
+									<p className="text-lg">
+										I create digital marketing strategies that increase online
+										visibility, generate leads and improve conversion rates.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Courses */}
+			<div className="container my-10 text-center">
+				<p className="font-light font-bold text-primary">
+					"I believe in sharing knowledge and helping others learn new skills
+					that can benefit them in their careers."
+				</p>
+				<a className="text-primary font-medium" href="">
+					{" "}
+					Check out my courses;
+				</a>
+			</div>
+
+			{/* Footer section */}
+			<div className="bg-second">
+				<div className="container  py-20">
+					<div className="flex flex-col gap-24">
 						<div className="">
-							<p className="font-bold text-2xl mb-7">Contact me</p>
-							<p>Want to reach out?</p>
+							<h2 className="text-[54px] font-bold mt-5">Get in touch</h2>
 							<p>
-								Email me:{" "}
-								<a href="mailto:jonathankd9@gmail.com">jonathankd9@gmail.com</a>
+								Please don't hesitate to reach out to me about your project or
+								business.
+							</p>
+
+							<p className="">Want to reach out?</p>
+							<p className="">
+								Shoot me mail:{" "}
+								<a className="text-primary" href="mailto:jonathankd9@gmail.com">
+									jonathankd9@gmail.com
+								</a>
 							</p>
 						</div>
 					</div>
+
+					<div className="my-5">
+						<div className="flex justify-between text-lg">
+							<a href="#">Linkdln</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+						</div>
+					</div>
+
 					<hr style={{ borderTop: "1px solid #FAF9F6", marginTop: 40 }} />
-					<p className="mt-10 text-white text-base">
-						© 2023, Jonathan Kofi Donkor. Made with Reactjs and Tailwindcss 🚀.
+					<p className="mt-5 font-light text-base text-center">
+						© 2023, Jonathan Kofi Donkor. <br /> Made with Reactjs and
+						Tailwindcss 🚀.
 					</p>
 				</div>
 			</div>
