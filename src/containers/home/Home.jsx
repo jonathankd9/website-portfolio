@@ -27,8 +27,8 @@ const Home = () => {
 						</p>
 						<p className="text-2xl text-center">
 							I love building products, growing brands and generating REAL
-							SALES. <br />I have a decade of experience with over websites, SEO
-							and marketing.
+							SALES. <br />I have 5 years of experience with websites, SEO and
+							marketing.
 						</p>
 					</div>
 				</div>
@@ -79,7 +79,7 @@ const Home = () => {
 
 					<div className="">
 						<div className="md:flex gap-5 sm:flex-wrap">
-							<div className="flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={Web} alt="" />
 								</div>
@@ -92,7 +92,7 @@ const Home = () => {
 									</p>
 								</div>
 							</div>
-							<div className="flex-1 bg-second p-5 rounded-2xl mb-10">
+							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={Marketing} alt="" />
 								</div>
@@ -107,7 +107,7 @@ const Home = () => {
 						</div>
 
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
-							<div className="flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={Blogging} alt="" />
 								</div>
@@ -120,7 +120,7 @@ const Home = () => {
 									</p>
 								</div>
 							</div>
-							<div className="flex-1 bg-second p-5 rounded-2xl mb-10">
+							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={SEO} alt="" />
 								</div>
@@ -150,7 +150,7 @@ const Home = () => {
 
 					<div className="">
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
-							<div className="bg-second p-5 rounded-2xl sm:mb-10">
+							<div className="transition ease-out delay-50 hover:translate-x-1 hover:scale-105 bg-second p-5 rounded-2xl sm:mb-10">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={Cookie} alt="" />
 								</div>
@@ -166,7 +166,7 @@ const Home = () => {
 									</p>
 								</div>
 							</div>
-							<div className=" bg-second p-5 rounded-2xl">
+							<div className="transition ease-out delay-50 hover:translate-x-1 hover:scale-105 bg-second p-5 rounded-2xl">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={Kiki} alt="" />
 								</div>
@@ -182,7 +182,7 @@ const Home = () => {
 						</div>
 
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
-							<div className=" bg-second p-5 rounded-2xl sm:mb-10">
+							<div className="transition ease-out delay-50 hover:translate-x-1 hover:scale-105 bg-second p-5 rounded-2xl sm:mb-10">
 								<div className="mb-5">
 									<img className="w-36 h-36" src={Lukins} alt="" />
 								</div>
@@ -197,7 +197,7 @@ const Home = () => {
 									</p>
 								</div>
 							</div>
-							<div className="bg-second p-5 rounded-2xl">
+							<div className="transition ease-out delay-50 hover:translate-x-1 hover:scale-105 bg-second p-5 rounded-2xl">
 								<div className="mb-5">
 									<img className="w-32 " src={College} alt="" />
 								</div>
