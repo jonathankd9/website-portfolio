@@ -17,18 +17,18 @@ const Home = () => {
 			{/* Hero Section */}
 
 			<div className="container">
-				<div className="my-24 flex flex-col justify-center items-center">
+				<div className="my-24 flex flex-col justify-center items-center ">
 					<div className="mb-5">
 						<img className="w-36 h-36" src={Profile} alt="" />{" "}
 					</div>
-					<div className="">
-						<p className="text-center font-medium text-primary ">
-							I’m Jonathan
-						</p>
-						<p className="text-center font-light text-primary">
+					<div className="text-center">
+						<span className="font-light text-[54px] mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+							I'm <span className="font-bold">Jonathan</span>
+						</span>
+						<p className="font-light text-primary">
 							Digital Marketer, Web Developer and Blogger
 						</p>
-						<p className="text-2xl text-center">
+						<p className="text-2xl ">
 							I love building products, growing brands and generating REAL
 							SALES. <br />I have 5 years of experience with websites, SEO and
 							marketing.
