@@ -61,7 +61,11 @@ const Home = () => {
 					</p>
 					<p>
 						I enjoy writing about web development and digital marketing on my{" "}
-						<a className="font-medium text-primary" href="">
+						<a
+							className="font-medium text-primary underline"
+							href="https://joe-writes.netlify.app/"
+							rel="noreferrer"
+							target="_blank">
 							blog
 						</a>
 						.
@@ -288,8 +292,7 @@ const Home = () => {
 							<span
 								className="text-[54px] 
 							font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 sm:leading-10
-							"
-							>
+							">
 								Get in touch
 							</span>
 							<p>
@@ -302,8 +305,7 @@ const Home = () => {
 								Shoot me mail:{" "}
 								<a
 									className="text-primary text-lg"
-									href="mailto:jonathankd9@gmail.com"
-								>
+									href="mailto:jonathankd9@gmail.com">
 									jonathankd9@gmail.com
 								</a>
 							</p>
@@ -318,7 +320,7 @@ const Home = () => {
 						</div>
 					</div>
 
-					<hr style={{ borderTop: "1px solid #FAF9F6", marginTop: 40 }} />
+					<hr style={{borderTop: "1px solid #FAF9F6", marginTop: 40}} />
 					<p className="mt-5 font-light text-base text-center">
 						© 2023, Jonathan Kofi Donkor. <br /> Made with Reactjs and
 						Tailwindcss 🚀.
