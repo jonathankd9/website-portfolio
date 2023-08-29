@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "./../../assets/profile.png";
 import Blogging from "./../../assets/blogging.png";
 import SEO from "./../../assets/seo.png";
@@ -45,7 +44,8 @@ const Home = () => {
 					</span>
 					<hr />
 					<p className="mt-5">
-						Hello, Jonathan here. I am a Tech Nerd who is passionate about{" "}
+						Hello, Jonathan Kofi Donkor. I am a Tech Nerd who is passionate
+						about{" "}
 						<span className="font-medium text-primary">
 							Frontend Technologies, Mobile App Development, Blogging, SEO
 						</span>{" "}
@@ -274,7 +274,7 @@ const Home = () => {
 
 			{/* Courses */}
 			<div className="container my-10 text-center">
-				<p className="font-light font-bold text-primary">
+				<p className="font-light text-primary">
 					"I believe in sharing knowledge and helping others learn new skills
 					that can benefit them in their careers."
 				</p>
@@ -314,7 +314,7 @@ const Home = () => {
 
 					<div className="my-5">
 						<div className="flex justify-between text-lg">
-							<a href="#">Linkdln</a>
+							<a href="#">Linkedin</a>
 							<a href="#">Twitter</a>
 							<a href="#">Instagram</a>
 						</div>
