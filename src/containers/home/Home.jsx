@@ -26,7 +26,7 @@ const Home = () => {
 							I'm <span className="font-bold">Jonathan</span>
 						</span>
 						<p className="font-light text-primary">
-							Digital Marketer, Web Developer and Blogger
+							Digital Marketer, Frontend/Mobile App Developer and Blogger
 						</p>
 						<p className="text-2xl ">
 							I love building products, growing brands and generating REAL
@@ -47,7 +47,7 @@ const Home = () => {
 					<p className="mt-5">
 						Hello, Jonathan here. I am a Tech Nerd who is passionate about{" "}
 						<span className="font-medium text-primary">
-							Web Development, Blogging, SEO
+							Frontend Technologies, Mobile App Development, Blogging, SEO
 						</span>{" "}
 						and{" "}
 						<span className="font-medium text-primary">Digital Marketing</span>{" "}
