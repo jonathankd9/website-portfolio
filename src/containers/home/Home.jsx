@@ -63,7 +63,7 @@ const Home = () => {
 						I enjoy writing about web development and digital marketing on my{" "}
 						<a
 							className="font-medium text-primary underline"
-							href="https://joe-writes.netlify.app/"
+							href="https://jonathankofidonkor.netlify.app/"
 							rel="noreferrer"
 							target="_blank">
 							blog
