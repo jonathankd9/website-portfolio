@@ -25,8 +25,8 @@ const Home = () => {
 							I'm <span className="font-bold">Jonathan</span>
 						</span>
 						<p className="font-light text-primary">
-							🖥️ Web Designer | 📱 Frontend/Mobile App Developer | ✍️ Niche
-							Blogger
+							🖥️ Web Designer <br /> 👨🏽‍💻 Frontend Developer <br /> 📱 Mobile App
+							Developer <br /> ✍️ Niche Blogger
 						</p>
 						<p className="text-2xl ">
 							I love building products, growing brands and generating REAL
