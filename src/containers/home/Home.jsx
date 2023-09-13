@@ -25,7 +25,8 @@ const Home = () => {
 							I'm <span className="font-bold">Jonathan</span>
 						</span>
 						<p className="font-light text-primary">
-							Digital Marketer, Frontend/Mobile App Developer and Blogger
+							🖥️ Web Designer | 📱 Frontend/Mobile App Developer | ✍️ Niche
+							Blogger
 						</p>
 						<p className="text-2xl ">
 							I love building products, growing brands and generating REAL
@@ -50,7 +51,7 @@ const Home = () => {
 							Frontend Technologies, Mobile App Development, Blogging, SEO
 						</span>{" "}
 						and{" "}
-						<span className="font-medium text-primary">Digital Marketing</span>{" "}
+						<span className="font-medium text-primary">Digital Marketing</span>
 						and based in Accra, Ghana.
 					</p>
 					<p>I have always been passionate about technology.</p>
