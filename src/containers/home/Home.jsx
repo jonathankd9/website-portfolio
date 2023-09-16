@@ -1,8 +1,8 @@
 import Profile from "./../../assets/profile.png";
-import Blogging from "./../../assets/blogging.png";
-import SEO from "./../../assets/seo.png";
-import Web from "./../../assets/web.png";
-import Marketing from "./../../assets/marketing.png";
+import Blogging from "./../../assets/story/blogging.png";
+import SEO from "./../../assets/story/seo.png";
+import Web from "./../../assets/story/web.png";
+import Marketing from "./../../assets/story/marketing.png";
 import College from "./../../assets/collegebiology.png";
 import Cookie from "./../../assets/cookie.png";
 import Kiki from "./../../assets/kikibodyworks.png";
@@ -18,7 +18,7 @@ const Home = () => {
 			<div className="container">
 				<div className="my-24 flex flex-col justify-center items-center ">
 					<div className="mb-5">
-						<img className="w-36 h-36" src={Profile} alt="" />{" "}
+						<img className="w-36 h-36" src={Profile} alt="" />
 					</div>
 					<div className="text-center">
 						<span className="font-light text-[54px] mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
@@ -87,9 +87,9 @@ const Home = () => {
 
 					<div className="">
 						<div className="md:flex gap-5 sm:flex-wrap">
-							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
-								<div className="mb-5">
-									<img className="w-36 h-36" src={Web} alt="" />
+							<div className="flex flex-col justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="">
+									<img className="" src={Web} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Web Development</p>
@@ -101,8 +101,8 @@ const Home = () => {
 								</div>
 							</div>
 							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
-								<div className="mb-5">
-									<img className="w-36 h-36" src={Marketing} alt="" />
+								<div className="">
+									<img className="" src={Marketing} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Digital Marketing</p>
@@ -116,8 +116,8 @@ const Home = () => {
 
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
 							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
-								<div className="mb-5">
-									<img className="w-36 h-36" src={Blogging} alt="" />
+								<div className="">
+									<img className="" src={Blogging} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Blogging</p>
@@ -129,8 +129,8 @@ const Home = () => {
 								</div>
 							</div>
 							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
-								<div className="mb-5">
-									<img className="w-36 h-36" src={SEO} alt="" />
+								<div className="">
+									<img className="" src={SEO} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">SEO</p>
