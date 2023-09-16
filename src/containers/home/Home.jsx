@@ -87,22 +87,22 @@ const Home = () => {
 
 					<div className="">
 						<div className="md:flex gap-5 sm:flex-wrap">
-							<div className="flex flex-col justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
-								<div className="">
-									<img className="" src={Web} alt="" />
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={Web} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Web Development</p>
 									<p className="text-lg">
-										I specialize in creating custom websites and web
-										applications that are both functional and visually
-										appealing, proficient in Reactjs, React Native, Nextjs.
+										I specialize in creating custom websites that are both
+										functional and visually appealing, proficient in Reactjs,
+										Nextjs, Tailwindcss.
 									</p>
 								</div>
 							</div>
-							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
-								<div className="">
-									<img className="" src={Marketing} alt="" />
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={Marketing} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Digital Marketing</p>
@@ -115,9 +115,9 @@ const Home = () => {
 						</div>
 
 						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
-							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
-								<div className="">
-									<img className="" src={Blogging} alt="" />
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={Blogging} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">Blogging</p>
@@ -128,16 +128,16 @@ const Home = () => {
 									</p>
 								</div>
 							</div>
-							<div className="transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
-								<div className="">
-									<img className="" src={SEO} alt="" />
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={SEO} alt="" />
 								</div>
 								<div className=" ">
 									<p className="font-medium text-primary ">SEO</p>
 									<p className="text-lg">
 										I specialize in maximizing your website's search engine
 										visibility through comprehensive SEO strategies that improve
-										rankings, drive traffic and generate leads.
+										rankings.
 									</p>
 								</div>
 							</div>
