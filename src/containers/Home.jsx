@@ -1,14 +1,14 @@
-import Profile from "./../../assets/profile.png";
-import Blogging from "./../../assets/story/blogging.png";
-import SEO from "./../../assets/story/seo.png";
-import Web from "./../../assets/story/web.png";
-import Marketing from "./../../assets/story/marketing.png";
-import College from "./../../assets/collegebiology.png";
-import Cookie from "./../../assets/cookie.png";
-import Kiki from "./../../assets/kikibodyworks.png";
-import Lukins from "./../../assets/lukinsprod.png";
-import Anthony from "./../../assets/anthony.png";
-import Priscilla from "./../../assets/priscilla.png";
+import Profile from "./../assets/profile.png";
+import Blogging from "./../assets/story/blogging.png";
+import SEO from "./../assets/story/seo.png";
+import Web from "./../assets/story/web.png";
+import Marketing from "./../assets/story/marketing.png";
+import College from "./../assets/collegebiology.png";
+import Cookie from "./../assets/cookie.png";
+import Kiki from "./../assets/kikibodyworks.png";
+import Lukins from "./../assets/lukinsprod.png";
+import Anthony from "./../assets/anthony.png";
+import Priscilla from "./../assets/priscilla.png";
 
 const Home = () => {
 	return (
