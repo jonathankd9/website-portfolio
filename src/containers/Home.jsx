@@ -146,6 +146,79 @@ const Home = () => {
 				</div>
 			</div>
 
+			{/* Coding project */}
+
+			{/* What i do */}
+			<div className="container flex flex-col">
+				<div className="my-24">
+					<div className="mb-10">
+						<span className="text-[54px] font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+							What I do
+						</span>
+						<hr />
+					</div>
+
+					<div className="">
+						<div className="md:flex gap-5 sm:flex-wrap">
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={Web} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Web Development</p>
+									<p className="text-lg">
+										I specialize in creating custom websites that are both
+										functional and visually appealing, proficient in Reactjs,
+										Nextjs, Tailwindcss.
+									</p>
+								</div>
+							</div>
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={Marketing} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Digital Marketing</p>
+									<p className="text-lg">
+										I create digital marketing strategies that increase online
+										visibility, generate leads and improve conversion rates.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={Blogging} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">Blogging</p>
+									<p className="text-lg">
+										I specialize in creating engaging and informative blog posts
+										that resonate with readers and drive traffic to your
+										website.
+									</p>
+								</div>
+							</div>
+							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
+								<div className="w-full flex justify-center">
+									<img className="w-[80%]" src={SEO} alt="" />
+								</div>
+								<div className=" ">
+									<p className="font-medium text-primary ">SEO</p>
+									<p className="text-lg">
+										I specialize in maximizing your website's search engine
+										visibility through comprehensive SEO strategies that improve
+										rankings.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			{/* Projects */}
 			<div className="container flex flex-col">
 				<div className="">

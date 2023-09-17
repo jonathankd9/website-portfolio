@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import Home from "./containers/Home";
-import About from "./containers/About";
 import {Routes, Route} from "react-router-dom";
 import Nav from "./nav/Nav";
+import FrontendSites from "./containers/FrontendSites";
 
 const App = () => {
 	return (
@@ -11,7 +11,7 @@ const App = () => {
 			<Nav />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<About />} />
+				<Route path="/frontend" element={<FrontendSites />} />
 			</Routes>
 		</>
 	);

@@ -13,11 +13,11 @@ const Nav = () => {
 					</div>
 					<div className="flex gap-10">
 						<li>
-							<NavLink to="/about">About</NavLink>
+							<NavLink to="https://www.google.com" target="_noblank">
+								Blog
+							</NavLink>
 						</li>
-						<li>
-							<NavLink to="/contact">Contact</NavLink>
-						</li>
+						<li></li>
 					</div>
 				</ul>
 			</nav>
