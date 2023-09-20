@@ -9,6 +9,8 @@ import Kiki from "./../assets/kikibodyworks.png";
 import Lukins from "./../assets/lukinsprod.png";
 import Anthony from "./../assets/anthony.png";
 import Priscilla from "./../assets/priscilla.png";
+import Williams from "./../assets/coding/williams.png";
+import Organick from "./../assets/coding/organick.png";
 
 const Home = () => {
 	return (
@@ -77,7 +79,7 @@ const Home = () => {
 
 			{/* What i do */}
 			<div className="container flex flex-col">
-				<div className="my-24">
+				<div className="my-16">
 					<div className="mb-10">
 						<span className="text-[54px] font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
 							What I do
@@ -147,72 +149,47 @@ const Home = () => {
 			</div>
 
 			{/* Coding project */}
-
-			{/* What i do */}
-			<div className="container flex flex-col">
-				<div className="my-24">
+			<div className="container mb-20">
+				<div className="">
 					<div className="mb-10">
 						<span className="text-[54px] font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-							What I do
+							Web Design Projects
 						</span>
 						<hr />
 					</div>
 
 					<div className="">
-						<div className="md:flex gap-5 sm:flex-wrap">
-							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
-								<div className="w-full flex justify-center">
-									<img className="w-[80%]" src={Web} alt="" />
-								</div>
-								<div className=" ">
-									<p className="font-medium text-primary ">Web Development</p>
-									<p className="text-lg">
-										I specialize in creating custom websites that are both
-										functional and visually appealing, proficient in Reactjs,
-										Nextjs, Tailwindcss.
-									</p>
-								</div>
-							</div>
-							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
-								<div className="w-full flex justify-center">
-									<img className="w-[80%]" src={Marketing} alt="" />
-								</div>
-								<div className=" ">
-									<p className="font-medium text-primary ">Digital Marketing</p>
-									<p className="text-lg">
-										I create digital marketing strategies that increase online
-										visibility, generate leads and improve conversion rates.
-									</p>
-								</div>
-							</div>
-						</div>
+						<div className="flex gap-10 flex-wrap md:flex-row sm:flex-col">
+							<div className="flex-1">
+								<a
+									href="https://williams-uidesigner.netlify.app/"
+									target="_noblank">
+									<div className="w-full flex justify-center bg-second border-16 rounded-3xl mb-5">
+										<img
+											className="w-[100%] rounded-3xl"
+											src={Williams}
+											alt=""
+										/>
+									</div>
+								</a>
 
-						<div className="md:flex gap-5 mb-10 sm:flex-wrap">
-							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 sm:mb-10 bg-second p-5 rounded-2xl">
-								<div className="w-full flex justify-center">
-									<img className="w-[80%]" src={Blogging} alt="" />
-								</div>
-								<div className=" ">
-									<p className="font-medium text-primary ">Blogging</p>
-									<p className="text-lg">
-										I specialize in creating engaging and informative blog posts
-										that resonate with readers and drive traffic to your
-										website.
-									</p>
-								</div>
+								<p className="font-medium text-primary text-center">
+									Williams UI Designer
+								</p>
 							</div>
-							<div className="flex flex-col gap-5 justify-center transition ease-in delay-100 hover:-translate-y-1 hover:scale-105 flex-1 bg-second p-5 rounded-2xl mb-10">
-								<div className="w-full flex justify-center">
-									<img className="w-[80%]" src={SEO} alt="" />
-								</div>
-								<div className=" ">
-									<p className="font-medium text-primary ">SEO</p>
-									<p className="text-lg">
-										I specialize in maximizing your website's search engine
-										visibility through comprehensive SEO strategies that improve
-										rankings.
-									</p>
-								</div>
+
+							<div className="flex-1">
+								<a href="https://organicks.netlify.app/" target="_noblank">
+									<div className="w-full flex justify-center bg-second border-16 rounded-3xl mb-5">
+										<img
+											className="w-[100%] rounded-3xl"
+											src={Organick}
+											alt=""
+										/>
+									</div>
+								</a>
+
+								<p className="font-medium text-primary text-center">Organick</p>
 							</div>
 						</div>
 					</div>
