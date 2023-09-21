@@ -26,10 +26,12 @@ const Home = () => {
 						<span className="font-light text-[54px] mb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
 							I'm <span className="font-bold">Jonathan</span>
 						</span>
-						<p className="font-light text-primary">
-							🖥️ Web Designer <br /> 👨🏽‍💻 Frontend Developer <br /> 📱 Mobile App
-							Developer <br /> ✍️ Niche Blogger
-						</p>
+						<div className="font-light text-primary flex md:gap-10 md:flex-row sm:flex-col flex-wrap mb-5">
+							<div className="">🖥️ Web Designer</div>
+							<div className="">👨🏽‍💻 Frontend Developer</div>
+							<div className="">📱 Mobile App Developer</div>
+							<div className="">✍️ Niche Blogger</div>
+						</div>
 						<p className="text-2xl ">
 							I love building products, growing brands and generating REAL
 							SALES. <br />I have 5 years of experience with websites, SEO and
