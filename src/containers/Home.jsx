@@ -11,6 +11,7 @@ import Anthony from "./../assets/anthony.png";
 import Priscilla from "./../assets/priscilla.png";
 import Williams from "./../assets/coding/williams.png";
 import Organick from "./../assets/coding/organick.png";
+import Warkinon from "./../assets/coding/warkinon.png";
 
 const Home = () => {
 	return (
@@ -175,7 +176,7 @@ const Home = () => {
 									</div>
 								</a>
 
-								<p className="font-medium text-primary text-center">
+								<p className="font-medium text-primary text-center text-xl">
 									Williams UI Designer
 								</p>
 							</div>
@@ -191,7 +192,25 @@ const Home = () => {
 									</div>
 								</a>
 
-								<p className="font-medium text-primary text-center">Organick</p>
+								<p className="font-medium text-primary text-center text-xl">
+									Organick
+								</p>
+							</div>
+
+							<div className="flex-1">
+								<a href="https://warkinon-joe.netlify.app/" target="_noblank">
+									<div className="w-full flex justify-center bg-second border-16 rounded-3xl mb-5">
+										<img
+											className="w-[100%] rounded-3xl"
+											src={Warkinon}
+											alt=""
+										/>
+									</div>
+								</a>
+
+								<p className="font-medium text-primary text-center text-xl">
+									Warkinon
+								</p>
 							</div>
 						</div>
 					</div>
