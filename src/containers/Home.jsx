@@ -12,6 +12,7 @@ import Priscilla from "./../assets/priscilla.png";
 import Williams from "./../assets/coding/williams.png";
 import Organick from "./../assets/coding/organick.png";
 import Warkinon from "./../assets/coding/warkinon.png";
+import {Link} from "react-router-dom";
 
 const Home = () => {
 	return (
@@ -213,6 +214,14 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
+					</div>
+
+					<div className="flex justify-center my-6">
+						<Link
+							to="/projects"
+							className="text-center text-xl bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-black hover:text-red-100 hover:scale-105 text-white px-6 py-4">
+							View All Projects
+						</Link>
 					</div>
 				</div>
 			</div>
