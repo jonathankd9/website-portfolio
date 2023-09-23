@@ -4,6 +4,7 @@ import Home from "./containers/Home";
 import {Routes, Route} from "react-router-dom";
 import Nav from "./nav/Nav";
 import FrontendSites from "./containers/FrontendSites";
+import Projects from "./containers/Projects"
 
 const App = () => {
 	return (
@@ -12,6 +13,7 @@ const App = () => {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/frontend" element={<FrontendSites />} />
+				<Route path="/projects" element={<Projects />} />
 			</Routes>
 		</>
 	);
